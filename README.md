@@ -78,7 +78,7 @@ To do so run the following:
     ./flash_firmware.sh
     ```
 
-A copy of this file is included in this repository.
+Refer to https://husarion.com/tutorials/howtostart/rosbot2r-quick-start/#launching-the-ros-driver 
 
 ### Astra camera not working
 
