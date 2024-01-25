@@ -2,6 +2,6 @@
 
     <include file="$(find astra_camera)/launch/astra.launch"/>
 
-	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find demo_pkg)/rviz/simple.rviz"/>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find husarion_demo)/rviz/simple.rviz"/>
 
 </launch>

@@ -12,15 +12,15 @@
 
    	<!-- Path planning -->
    	<node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
-      	<rosparam file="$(find demo_pkg)/config/move_base.yaml" command="load" />
-      	<rosparam file="$(find demo_pkg)/config/costmap_common.yaml" command="load" ns="global_costmap" /> 
-      	<rosparam file="$(find demo_pkg)/config/costmap_common.yaml" command="load" ns="local_costmap" />
-      	<rosparam file="$(find demo_pkg)/config/costmap_global.yaml" command="load" /> 
-      	<rosparam file="$(find demo_pkg)/config/costmap_local.yaml" command="load" />
-      	<rosparam file="$(find demo_pkg)/config/planner_global.yaml" command="load" />
-      	<rosparam file="$(find demo_pkg)/config/planner_local.yaml" command="load" />
+      	<rosparam file="$(find husarion_demo)/config/move_base.yaml" command="load" />
+      	<rosparam file="$(find husarion_demo)/config/costmap_common.yaml" command="load" ns="global_costmap" /> 
+      	<rosparam file="$(find husarion_demo)/config/costmap_common.yaml" command="load" ns="local_costmap" />
+      	<rosparam file="$(find husarion_demo)/config/costmap_global.yaml" command="load" /> 
+      	<rosparam file="$(find husarion_demo)/config/costmap_local.yaml" command="load" />
+      	<rosparam file="$(find husarion_demo)/config/planner_global.yaml" command="load" />
+      	<rosparam file="$(find husarion_demo)/config/planner_local.yaml" command="load" />
    	</node>
 
-	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find demo_pkg)/rviz/nav.rviz"/>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find husarion_demo)/rviz/nav.rviz"/>
 
 </launch>
